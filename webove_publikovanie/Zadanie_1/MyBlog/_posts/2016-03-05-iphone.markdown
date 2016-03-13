@@ -1,0 +1,28 @@
+---
+layout: post
+title:  "iPhone s úplne novým displejom vraj príde skôr"
+date:   2016-03-05 00:17:08 +0100
+description: "Podľa najnovších správ sa firma Apple ohľadne prechodu na nové OLED panely takpovediac poponáhľa. Údajne budú súčasťou nových iPhonov už v budúcom kalendárnom roku."
+categories: novinky
+tags: iphone apple ios
+---
+
+Nasledujúce generácie smartfónu iPhone od Apple by popri iných novinkách mali priniesť aj celkom nové displeje. Respektíve nasadia namiesto súčasných LCD panelov riešenia na báze technológie OLED.
+
+Podľa najnovších správ sa firma Apple ohľadne prechodu na nové OLED panely takpovediac poponáhľa. Údajne budú súčasťou nových iPhonov už v budúcom kalendárnom roku.
+
+Najnovšia správa, na ktorú upozornili stránky Phonearena.com či GSMArena.com, sa pritom odvoláva na japonský list Nikkei, ktorý má mať informácie z dobre informovaných zdrojov. Ak by sa uvedená informácia (samozrejme, nepotvrdená zo strany firmy Apple) ukázala ako pravdivá, išlo by o výrazný posun v harmonograme nasadenia OLED displejov. Doteraz sa totiž ako najpravdepodobnejší termín prechodu z LCD na OLED technológiu u iPhonov spomínal horizont roka 2018 (ako najskorší), respektíve častejšie až rok 2019.
+
+{:.img-position}
+[![Pre úplné zobrazenie je potrebné pripojenie k internetu][2]][1]
+
+Firma Apple mala v tomto smere intenzívne komunikovať s kórejskými spoločnosťami Samsung a LG, ktoré by mali spomínané OLED panely dodávať. Mala si zisťovať, či by boli schopné dodať značné množstvo takýchto OLED displejov pre iPhony práve v roku 2017. Keďže odbyt iPhonov sa počíta v rádoch desiatok miliónov kusov každý kvartál, znamenalo by to nemalý nápor na výrobné kapacity dodávateľov.
+
+Kontrakt však bude zároveň pre dodávateľov aj veľmi lukratívny. Aktuálne šumy z prostredia priemyslu spomínajú čiastku kontraktu až niekedy na úrovni 12 miliárd dolárov.
+Problém platformy spočíva najmä v nedostatočnom grafickom výkone, ktorý je potrebný na chod virtuálnej reality: „Môže za to fakt, že Apple neuprednostňuje high-end grafické karty. Môžete si kúpiť 6-tisícový Mac Pro so špičkovým AMD FirePro D700, no stále nebude spĺňať naše odporúčané požiadavky.“
+
+**Článok prevzatý zo [mobilmania.sk].**
+
+[mobilmania.sk]: http://mobilmania.azet.sk/clanok/112867/iphone-s-uplne-novym-displejom-vraj-pride-skor
+[1]: http://mobilmania.azet.sk/clanok/112867/iphone-s-uplne-novym-displejom-vraj-pride-skor
+[2]: http://img.cas.sk/img/24/gallery/2405711_apple-iphone.jpg?hash=cf30333c06c6c3b7b5413734e4e09f88

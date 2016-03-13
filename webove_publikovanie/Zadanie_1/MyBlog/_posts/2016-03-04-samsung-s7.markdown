@@ -1,0 +1,32 @@
+---
+layout: post
+title:  "Samsung představil Galaxy S7 a S7 Edge. Jsou to špičkové telefony s Androidem"
+date:   2016-03-04 12:30:59 +0100
+description: Samsung na největším veletrhu mobilních technologií Mobile World Congress (MWC) ve španělské Barceloně odhalil nové top modely Galaxy S7 a S7 edge. Novinky nabízí vyšší výkon než předchůdci, zvýšenou odolnost a prémiový fotoaparát.
+categories: novinky
+tags: samsung s7 android
+---
+Samsung na největším veletrhu mobilních technologií Mobile World Congress (MWC) ve španělské Barceloně odhalil nové top modely Galaxy S7 a S7 edge. Novinky nabízí vyšší výkon než předchůdci, zvýšenou odolnost a prémiový fotoaparát.
+
+Svou vlajkovou loď nabízí jihokorejská firma po vzoru loňských modelů ve dvou různých provedeních, které se od sebe liší tvarem a nově i velikostí. Základ nabídky tvoří Galaxy S7, který je vybaven 5,1palcovou obrazovkou s rozlišením 2560 × 1440 bodů. Zaoblený model S7 edge se pyšní stejným rozlišením, displej však dorostl do úhlopříčky 5,5 palce.
+
+Podobně jako konkurenční LG G5 i oba nové Samsungy nabídnou funkci always-On, díky níž je displej schopný neustále zobrazovat důležité informace, jako je čas, záznamy v kalendáři, zmeškané hovory a tak dále. Když si uživatel bude chtít zkontrolovat pouze některou z těchto informací, nebude tak muset probouzet telefon a ušetří tak kapacitu baterie.
+
+Přední i zadní strana je u S7 a S7 edge nadále skleněná, přičemž tyto dvě plochy doplňuje bytelný kovový rámeček. Výrobci se ale tentokrát podařilo do těla zařízení dostat hybridní slot, do kterého může uživatel vložit zároveň SIM kartu i microSD kartu, a tak získat další úložiště o velikosti až 200 GB. Další novinkou je podpora certifikace IP68. Smartphony tedy mohou být ponořeny do hloubky 1,5 metru po dobu 30 minut a obstojí i v prašném prostředí.
+
+**Video:**
+
+{:.center}
+[![Samsung Galaxy S7 and S7 edge: Official Introduction](http://img.youtube.com/vi/cyohHyQl-kc/0.jpg)](https://www.youtube.com/watch?v=cyohHyQl-kc "Samsung Galaxy S7 and S7 edge: Official Introduction")
+
+Nové modely samozřejmě dostaly lepší hardware, u obou je stejný. Procesory Exynos nebo Snapdragon 820 zajistí telefonům nejvyšší příčky v benchmarcích. Prozatím však nevíme, kde se jaká verze bude prodávat. V ostatních parametrech se Galaxy S7 a S7 edge už neliší. Oba smartphony mají 4 GB operační paměti, snímač otisků prstů a operační systém Android 6.0 Marshmallow s prostředím TouchWiz.
+
+Hlavní fotoaparát na zadní straně má rozlišení dvanáct megapixelů a je napojen na objektiv se špičkovou světelností f/1,7. Pixely mají velikost 1,4 mikrometru. Samsung na tiskové konferenci uvedl, že se na čip dostane o 25% více světla a obrázky jsou díky vylepšené stabilizaci obrazu o 95% světlejší. Pro úplnost ještě dodejme, že čelní snímač má rozlišení pět megapixelů a světelnost je opět skvělých f/1,7.
+
+Baterii mají telefony stále uživatelsky nevyměnitelnou, ale kapacita tentokrát řádně narostla. S7 disponuje 3 000mAh baterkou (S6 měla 2 550mAh baterii), model edge pak dokonce 3 600mAh (2 600 mAh). Výdrž by tak měla být velmi solidní. Podporováno je navíc bezdrátové i rychlé dobíjení.
+
+A jaká bude cena telefonů? Několik hodin po skončení tiskové konference Samsung upřesnil, že model Galaxy S7 se bude v ČR prodávat za 19 799 Kč, verze Galaxy S7 edge se zakřiveným displejem pak bude startovat na částce 22 599 Kč. V obou případech se cena vztahuje k verzi s 32 GB paměti. Prodej bude oficiálně zahájen v pátek 11. března.
+
+**Článok prevzatý z [pctuning.cz].**
+
+[pctuning.cz]: http://pctuning.tyden.cz/index.php?option=com_content&view=article&id=39553&catid=1&Itemid=57
