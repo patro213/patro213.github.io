@@ -1,0 +1,83 @@
+---
+layout: post
+title:  "Toto sú nové funkcie Androidu N. Vieme, ako ich vyskúšať"
+date:   2016-03-08 15:34:41 +0100
+description: Novinky sú zatiaľ dostupné len pre Nexus zariadenia. Oficiálna verzia systému bude predstavená v lete.
+categories: novinky
+tags: android google
+---
+
+Spoločnosť Google včera vydala prvú náhľadovú verziu operačného systému s označením „N“. Prináša viacero vylepšení po stránke vzhľadu i funkcií. Spustený bol zároveň nový Android Beta program pre vývojárov,  ktorí si tak novinku môžu vyskúšať už teraz.
+
+Hoci zmien nie je málo, nepatrí medzi ne odstránenie klasického zoznamu aplikácií – takzvaného App Drawera, o ktorom sa viedli diskusie ešte začiatkom marca.
+
+**Ešte lepší multitasking**
+
+Jednou z najvýznamnejších **noviniek je funkcia multi-window**. Obrazovku umožňuje rozdeliť na dve časti, používateľ tak môže súčasne pracovať vo dvoch samostatných aplikáciách.
+
+Prístup k funkcionalite má používateľ cez zoznam posledných spustených aplikácií. Menšou úpravou prešlo ich zobrazenie, jednotlivé karty sú po novom väčšie.
+
+Užitočný je **interaktívny rozdeľovač obrazovky**. Umožní zväčšenie, respektíve zmenšenie zobrazenia vybranej aplikácie. Princíp fungovania multi-window môžete vidieť na videu portálu Android Police:
+
+**Video:**
+
+{:.center}
+[![Demo of multi-window on Android N dev preview](http://img.youtube.com/vi/b_NtRcxTuuI/0.jpg)](https://www.youtube.com/watch?v=b_NtRcxTuuI "Demo of multi-window on Android N dev preview")
+
+Medzi jednotlivými aplikáciami sa dá ľahko prepínať práve cez tlačidlo naposledy spusteného softvéru. Jeho dvojitým stlačením sa používateľ vráti k poslednej aplikácii.
+
+**Notifikácie opäť po novom**
+
+Google rovnako pokračuje v trende vylepšovania notifikácií. Tentoraz **vylepšil prácu so zlúčenými oznámeniami**, napríklad pri prijatí viacerých e-mailových správ.
+
+Skupina oznámení sa dá odteraz rozbaliť, používateľ tak môže pracovať s jednotlivými notifikáciami samostatne.
+
+Rovnako užitočnou funkciou budú **rýchle odpovede priamo z notifikačnej lišty**. Určená je najmä pre komunikátory typu Hangouts. Používatelia nemusia otvoriť samotnú aplikáciu, namiesto toho na zobrazenú správu odpovedia priamo z panela s oznámeniami.
+
+{:.center}
+[![Pre úplné zobrazenie je potrebné pripojenie k internetu][2]][1]
+
+**Šetrenie vo veľkom**
+
+Android N prinesie **vylepšenú funkciu Doze**. Nástroj na šetrenie batérie dostane akúsi „prechodovú fázu“ predtým, ako spustí všetky dostupné šetriace mechanizmy.
+
+Funkcionalita sa doposiaľ aktivovala len v prípade, že zariadenie ostalo nečinné s vypnutým displejom a v nehybnej polohe. V takej situácii došlo napríklad k odstaveniu aplikácií od prístupu k dátam, vypnutiu GPS či Wi-Fi skenov.
+
+Po novom Doze obíde nevyhnutný stav, kedy bol telefón odložený bokom. Špeciálny „light“ mód funkcie sa aktivuje, ak má telefón po dlhší čas vypnutý displej. Používateľ s ním pritom môže bez obmedzení hýbať – mať ho vo vrecku nohavíc pri chôdzi a podobne.
+
+V prvej fáze bude aplikáciám odoprený prístup k dátam, pozastavené budú všetky synchronizačné úkony. K nim bude dochádzať len v určitých pravidelných intervaloch. Ak telefón naďalej zostane neaktívny, po nejakom čase systém spustí plné obmedzenia, ktoré dodatočne znížia energetickú náročnosť zariadenia.
+
+{:.center}
+[![Pre úplné zobrazenie je potrebné pripojenie k internetu][4]][3]
+
+Doze sa automaticky deaktivuje v momente, kedy majiteľ zapne displej, prípadne keď zariadenie pripojí na nabíjačku.
+
+**Rýchlejšie aktualizácie**
+Odkedy Google v Androide 5.0 Lollipop natrvalo vymenil kompilátor Dalvik za ART, jednou z mála nevýhod sa stal dlhší čas strávený pri aktualizáciách operačného systému.
+
+Pred prvým spustením systému bezprostredne po update totiž prebieha k „optimalizácii“ všetkých nainštalovaných aplikácií. Daný krok môže trvať aj niekoľko minút, nehovoriac o tom, že celý aktualizačný proces je veľkou záťažou na batériu. **Vylepšená verzia ART** však potrebný medzikrok niekoľkonásobne zrýchlila.
+
+Ďalšou **funkciou na strane aplikácií je Data Saver**. Spúšťa ho používateľ a jeho účelom je obmedzenie využitia mobilných dát na pozadí. Majiteľ zariadenia môže zároveň vybrať aplikácie, ktorým šetrič prístup k dátam ponechá. Docieli tým zníženie využitia mobilnej siete, pričom nestratí prístup k dôležitým funkciám, napríklad e-mailovým notifikáciám.
+
+**Ako testovať?**
+
+Viaceré z nových funkcionalít (napríklad multi-window) musia najprv podporovať dané aplikácie. Vývojári sa o to môžu postarať zapojením sa do spomínaného Android Beta programu.
+
+Ten však môžu vyskúšať aj bežní používatelia. Podmienkou je, že musia vlastniť jedno z podporovaných Nexus zariadení: Nexus 6, Nexus 9, Nexus 5X, Nexus 6P, Nexus Player, respektíve tablet Pixel C.
+
+Pre vstúpenie do testovacieho programu stačí navštíviť [špecializovaný web] a prihlásiť sa do svojho Google účtu. V priebehu 24 hodín by mali používatelia dostať OTA aktualizáciu s novou verziou Androidu.
+
+Spoločnosť sľubuje pravidelné updaty každé štyri až šesť týždňov. **Oficiálne vydanie Androidu N je avizované na leto** počas tretieho kvartálu 2016.
+
+Alternatívou pre vstup do programu je inštalácia priamo z image súborov, ktoré Google medzičasom sprístupnil. V tomto prípade však budú testeri ukrátení o ďalšie OTA aktualizácie, ktoré budú musieť inštalovať manuálne.
+
+Pozor na dáta treba dať pri vystúpení z programu. V takej situácii bude zariadenie obnovené do továrenských nastavení  a nainštalovaný bude najnovší dostupný Android 6.0 Marshmallow bez ohľadu na to, akou verziou systému zariadenie disponovalo pred zapojením sa do Android Beta.
+
+**Článok prevzatý z [mobilmania.sk].**
+
+[mobilmania.sk]: http://mobilmania.azet.sk/clanok/113018/toto-su-nove-funkcie-androidu-n-vieme-ako-ich-vyskusat
+[špecializovaný web]: http://developer.android.com/preview/index.html
+[1]: http://mobilmania.azet.sk/clanok/113018/toto-su-nove-funkcie-androidu-n-vieme-ako-ich-vyskusat
+[2]: http://img.cas.sk/img/24/gallery/2407153_google-android.jpg?hash=d0052764e05360f26158bbceed512e96
+[3]: http://mobilmania.azet.sk/clanok/113018/toto-su-nove-funkcie-androidu-n-vieme-ako-ich-vyskusat
+[4]: http://img.cas.sk/img/24/fullwidth/2407148_google-android.jpg?hash=1393324f9656d04d3de2a7a1e392edb2
