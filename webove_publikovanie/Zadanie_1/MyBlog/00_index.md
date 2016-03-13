@@ -1,5 +1,7 @@
 ---
 layout: default
+title: Patrik Januska
+permalink: /
 ---
 <div class="home">
 
