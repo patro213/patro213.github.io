@@ -14,7 +14,7 @@ permalink: /
         <h2>
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
         </h2>
-		<p class="post-description">{{post.description}}<br>{% include tagsforpost.html tags=post.tags %}</p>
+		<!--<p class="post-description">{{post.description}}<br>{% include tagsforpost.html tags=post.tags %}</p>-->
 		
       </li>
     {% endfor %}
