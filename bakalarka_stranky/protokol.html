@@ -1,0 +1,177 @@
+<html>
+	<head>
+		<meta charset = "windows-1250">
+		<style>
+			p {
+		    		line-height: 40px;
+			}
+			
+			h1 {
+					text-align: center;
+			}
+			body {
+				background-color:#eaeaea;	
+			}
+		</style>
+	</head>
+	<body>
+		<h1>HLAVNY NADPIS</h1>
+		<p>Hypertextovı prenosovı protokol (angl. hypertext transfer protocol), skr. HTTP, je protokol pre prenos html dokumentov medzi servermi a klientmi sluby WWW. Pôsobí ako primárna metóda prepravy informácií na world wide webe. Pôvodnı úèel bol poskytova prostriedky pre publikáciu a získavanie HTML stránok.</p>
+		
+		<p>Vıvoj HTTP koordinovalo World Wide Web Consortium a pracovné skupiny Internet Engineering Task Force, èím vytvorili sadu dokumentov RFC, predovšetkım RFC 2616[2] definujúci HTTP/1.1, dnes pouívanú verziu HTTP.</p>
+		<p>HTTP je protokol definujúci poiadavky a odpovede medzi klientmi a servermi. HTTP klient (oznaèovanı ako user agent), ako webovı prehliadaè zvyèajne zaène poiadavku nadviazaním TCP spojenia na urèenom porte vzdialeného stroja (štandardne port 80). HTTP server poèúvajúci na danom porte èaká, kım klient pošle reazec s poiadavkou ako "GET / HTTP/1.1" (ktorı iada o zaslanie štartovacej stránky webservera) nasledovanı sériou hlavièiek podobnıch MIME opisujúcich detaily poiadavky a nasledovanıch telesom ¾ubovo¾nıch údajov. Niektoré hlavièky sú nepovinné, zatia¾ èo verzia HTTP/1.1 niektoré vyaduje (ako názov stroja). Po prijatí poiadavky server pošle reazec s odpoveïou ako "200 OK" nasledovanou hlavièkami spolu so samotnou správou, ktorej telo tvorí obsah poadovaného súboru, chybové hlásenie alebo iná informácia.</p>
+		
+		<!-- WEBSUPPORT-->
+		<h1>História</h1>
+		<p>Za ideu a realizáciu HTTP/2 sa dá pripísa nemalá zásluha Googlu. Táto spoloènos u v roku 2012 predstavila svoj vlastnı otvorenı protokol SPDY, ktorı mal prinies nišiu latenciu a vyššiu bezpeènos. Oba body sa mu podarilo splni pomocou kompresie, multiplexingu, prioritizácii a vyadovaním TLS.</p>
+		<p>SPDY mal podporu na strane webovıch serverov ako Nginx a Apache (mod_spdy), ale aj na strane prehliadaèov. Google Chrome asi nie je prekvapením, no pozná ho aj Opera, Firefox, Safari èi Internet Explorer. Keïe je u HTTP/2 schválenı ako štandard, Google tento rok SPDY ako projekt ukonèí – u ho nebude treba.</p>
+		<p>Za HTTP/2 stojí pracovná skupina HTTP z The Internet Engineering Task Force (IETF). Keï bola podaná vızva na predkladanie návrhov na novı protokol, tak SPDY bol viac-menej jasnou vo¾bou a ¾udia z Googlu priamo pracovali na HTTP/2. Ako u bolo spomenuté, tak v máji 2015 uzrelo svetlo sveta RFC 7540 a RFC 7541, ktoré popisujú kompresiu hlavièiek HPACK.</p>
+				
+		<h1>Charakteristika a vıvoj</h1>
+		<p>Protokol všeobecne definuje pravidlá medzi dvoma partnermi. Definuje tvar prenášanıch informácií, monosti a náleitosti, poiadavky a odpovede. Hypertext Transfer Protokol (HTTP) je protokol aplikaènej vrstvy. Pouíva sa pre distribuované hypermediálne informaèné systémy. V rámci sluby WWW sa pouíva od roku 1991. Slúi na vımenu HTML dokumentov medzi klientom a serverom. WWW server sa èasto nazıva aj HTTP serverom.</p>
+		<p>Existuje viac verzií protokolu:</p>
+		
+		<p><b>HTTP/0.9:</b><br/>
+			prvá verzia<br/>
+			pouíva sa od roku 1990, dnes sa u nepouíva<br/>
+			otázka: iba metóda GET, bez dodatoènıch (meta-) informácií<br/>
+			odpoveï: poadovanı dokument, takisto bez dodatoènıch informácií<br/>
+			po prenesení odpovede sa spojenie ukonèí
+		</p>
+		
+		<p><b>HTTP/1.0</b><br/>
+			definovanı v RFC 1945 z roku 1996<br/>
+			mnoho rozšírení predchádzajúcej verzie; spätne kompatibilnı<br/>
+			otázka: pridané metódy POST a HEAD<br/>
+			volite¾né ïalšie hlavièky v upravenom formáte MIME (napr. k dotazu: Date, Authorization, From, If-Modified-Since, Referer, User-Agent; k telu dotazu: Content-Encoding, Content-Length)<br/>
+			volite¾né telo dotazu (entity body)<br/>
+			odpoveï: pridaná hlavièka:<br/>
+			informácia o stave (status) odpovede<br/>
+			volite¾né ïalšie hlavièky v upravenom formáte MIME [5] (napr. k odpovedi: Date, Location, WWW-Authenticate; k telu odpovede: Content-Encoding, Content-Length)<br/>
+			volite¾né telo odpovede (entity body)
+		</p>
+
+		<p><b>HTTP/1.1</b><br/>
+			definovanı v RFC 2616 z roku 1999, dnes najèastejšie pouívanı<br/>
+			dopåòa monosti HTTP/1.0 (hierarchické proxy, kešovanie, trvalé spojenia, virtuálne servery), spätne kompatibilnı<br/>
+			otázka: pridané metódy OPTIONS, PUT, DELETE, TRACE, CONNECT (ktoré sú zriedka pouívané)<br/>
+			takmer dvojnásobnı poèet hlavièiek oproti HTTP/1.0
+		</p>
+
+		<p>Protokol HTTP je postavenı na princípe otázka-odpoveï. Táto komunikácia prebieha medzi serverom a klientom. Kadá aktivita musí by vyvolaná klientom, prièom komunikácia so serverom prebieha cez TCP (pouíva sa port 80, ktorı ale nie je podmienkou).</p>
+		
+		<p>Úplná otázka-odpoveï musí ma špecifikovanú metódu, URI (absolútna alebo relativná cesta k súboru alebo úplné URL dokumentu). Niekedy nasleduje po hlavièkách aj telo otázky oddelené jednım prázdnym riadkom.</p>
+		
+		<p>Server podporujúci protokol 1.0 vráti odpoveï a spojenie ihneï uzavrie. Protokol 1.1 vytvára tzv. perzistentné spojenie a preto servery podporujúce verziu 1.1 spojenie hneï neuzavrú, ale chví¾u èakajú na ïalšie príkazy. Klient tak môe pokraèova v otázkach na ostatné prvky HTML stánky a spojenie ukonèi sám.</p>
+		
+		<p>Odpoveï obsahuje verziu protokolu, kód odpovede a textovú hlášku odpovede. Ïalej obsahuje hlavièky, prázdny riadok (odde¾ovaè) a väèšinou aj telo odpovede.</p>
+		
+		<h1>Druhy iadostí HTTP</h1>
+		<p>Zvyèajne sa nazıvajú metódy.</p>
+		
+		<p><b>GET</b> Zïaleka najbenejší typ iadosti. iada o zdroj uvedením jeho URL<br/>
+			<b>POST</b> Podobne ako GET, okrem toho, e je pridané telo správy zvyèajne obsahujúce dvojice k¾úè-hodnota z HTML formulára.<br/>
+			<b>PUT</b> Pouíva sa na upload súborov na špecifikované URI na webserveri.<br/>
+			<b>DELETE</b> Zriedka implementované. Zmazanie zdroja.<br/>
+			<b>HEAD</b> Podobné GET, okrem toho, e sa nepoaduje telo správy, iba hlavièky. Pouíva sa na získavanie metainformácií o dokumente.<br/>
+			<b>TRACE</b> Odošle kópiu obdranej poiadavky spä odosielate¾ovi, take klient môe zisti, èo na poiadavke menia alebo pridávajú servery, ktorımi táto prechádza.<br/>
+			<b>OPTIONS</b> Vracia HTTP metódy, ktoré danı webserver podporuje. Je moné poui na otestovanie funkcionality servera.<br/>
+			<b>CONNECT</b> Zriedka implementované, na pouitie s proxy serverom, ktorı sa môe zmeni na SSL tunel.
+		</p>
+		
+		<p>HTTP sa líši od inıch na TCP zaloenıch protokolov ako napr. FTP v tom, e spojenia sa zvyèajne ukonèia potom, ako sa dokonèí vykonávanie poiadavky alebo série poiadaviek. Tento dizajn ho robí ideálnym protokolom pre web, kde stránky èasto odkazujú na ïalšie stránky na inıch serveroch. Príleitostne to spôsobuje problémy webovım návrhárom, keïe chıbajúce perzistentné spojenie si vynucuje alternatívne prístupy udriavania stavovej informácie o pouívate¾ovi. Zvyèajne na to pouívajú tzv. cookies.</p>
+		
+		<p>HTTPS je zabezpeèená verzia HTTP. Na ochranu dát pouíva SSL/TLS. Štandardnı port sluby je TCP port 443. HTTPS je vhodné aj v prípadoch, kedy je autentifikovanı len jeden koniec spojenia -- server. To je typickı prípad pri HTTP transakciách cez internet.</p>
+		
+		<p>Lokáciu dokumentov na webserveri udáva Uniform Resource Locator (URL). Táto adresa má syntax vyvinutú pre vytváranie odkazov na webstránky.</p>
+		
+		<h2>Vısledkové kódy</h2>
+		<p>Vısledkové kódy sú rozdelené do piatich tématickıch skupín pod¾a prvej èíslice.</p>
+		
+		<p><b>1xx - informaèné</b> - poiadavka bola obdraná<br/>
+			<b>100 Continue</b><br/>
+			- Klient môe pokraèova v posielaní poiadaviek. Ide o medziodpoveï zo strany servera. Po obdraní celej poiadsavky ju server zaène obsluhova a pošle koneènı vısledkovı kód.<br/>
+			<b>101 Switching Protokols</b><br/>
+			- Server rozumel poiadavke a mení protokol pod¾a špecifikácie v hlavièke Ugrade
+		</p>
+			
+		<p><b>2xx - úspech</b> - dotaz bol serverom pochopenı a akceptovanı<br/>
+			<b>200 OK</b><br/>
+			- Dotaz bol obslúenı bez chıb. Server posiela odpoveï.<br/>
+			<b>201 Created</b><br/>
+			- Vısledkom spracovania dotazu bolo vytvorenie nového objektu, ktorı môeme identifikova pomocou URL. URL vytvorenáho objektu je posielané v tele odpovede.<br/>
+			<b>202 Accepted</b><br/>
+			- Dotaz bol prijatı, jeho spracovanie sa však ešte neskonèilo. Klient nemusí èaka na dokonèenie.<br/>
+			<b>203 Non-Autoritative Information</b><br/>
+			- Vracané informácie nie sú posielané z originálneho servera.<br/>
+			<b>204 No Content</b><br/>
+			- Dotaz bol akceptovanı a v poriadku obsluenı, nevznikli však iadne dáta, ktoré by server klientovi poslal.<br/>
+			<b>206 Reset Content</b><br/>
+			- Server obsluil poiadavku a klient má nastavi pôvodnı obsah dokumentu, ktorı predpokladá vloenie uivatelskıch dát.
+		</p>
+		
+		<p><b>3xx - presmerovanie</b> - Klient musí previes ïa¾šie akcie, aby získal poadovanı dokument.<br/>
+			<b>300 Multiple Choices</b><br/>
+			- Poadovanı dokument je dostupnı na nieko¾kıch miestach, klient musí vybra jeden z dokumentov a odznova vysla dotaz.<br/>
+			<b>301 Moved Permanently</b><br/>
+			- Objekt bol trvalé presahovanı na nové URL. Klient sa musí opıta na novom mieste.<br/>
+			<b>302 Moved Temporarily</b><br/>
+			- Objekt bol doèasne presunutı inam. Klient sa musí obráti na nové miesto, nemal by však prepisova URL objektu vo svojích zálokách, pretoe presunutie je len doèasné.<br/>
+			<b>303 See Other</b><br/>
+			- Odpoveï je dostupná na inom URL. Nie je to však náhrada za URL pôvodné.<br/>
+			<b>304 Not Modified</b><br/>
+			- Server odpovie tımto kódom, pokia¾ klient poslal podmienenı dotaz GET na dokument, ktorı má uloenı v cache a odpovedajúci dokument na originálnom serveri bol modifikovanı.<br/>
+			<b>305 Use Proxy</b><br/>
+			- Poiadavka musí by znovu poslaná prostredníctvom proxy uvedenom v URL.
+		</p>
+
+		<p><b>4xx - klientova chyba</b> - Klient poloil chybnı dotaz alebo nemá oprávnenie získa dokument poadovanı v dotaze.<br/>
+			<b>400 Bad Request</b><br/>
+			- Chybnı syntax dotazu.<br/>
+			<b>401 Unauthorized</b><br/>
+			- Obslúenie dotazu je viazané na urèité identifikaèné poiadavky, ktoré klient nesplnil.<br/>
+			<b>402 Payment Required</b><br/>
+			- Tento kód je rezervovanı pre budúce pouitie.<br/>
+			<b>403 Forbidden</b><br/>
+			- Server má od správcu zakázané odpoveda na dotaz.<br/>
+			<b>404 Not Found</b><br/>
+			- Objekt s poadovanım URL neexistuje. Tento chybovı kód je najèastejší. Príèinou môe by buï preklep v URL alebo zánik objektu.<br/>
+			<b>405 Method Not Allowed</b><br/>
+			- Pouitá metóda nie je pre uvedené URL povolená.
+		</p>
+
+		<p><b>5xx - chyba servera</b> - Server nie je z nejakého dôvodu schopnı obslúi danú poiadavku.<br/>
+			<b>500 Internal Server Error</b><br/>
+			- Behom spracovania dotazu došlo v programe servera k nejakej blišie neurèenej chybe.<br/>
+			<b>501 Not Implemented</b><br/>
+			- Server nespoznel metódu, ktorou je posielaná poiadavka.<br/>
+			<b>502 Bad Gateway</b><br/>
+			- Chybu 502 pošle sprostredkujúci server, pokia¾ na váš dotaz dostal od pôvodného servera zápornú odpoveï.<br/>
+			<b>503 Service Unavailable</b><br/>
+			- Server momentálne nedokáe váš dotaz obslúi - napr. je preaenı alebo prebieha jeho údrba. Chyba je doèasná a pokia¾ svoj dotaz neskôr zopakujete, máte šancu, e budete obsluenı.<br/>
+			<b>504 Gateway Timeout</b><br/>
+			- Server pracujúci s proxy alebo gateway nedostal vèas odpoveï, aby mohol splni vašu poiadavku.<br/>
+			<b>505 HTTP Version Not Supported</b><br/>
+			- Server nepodporuje verziu protokolu pouitú vo vašej poiadavke.
+		</p>
+		
+		<h1>Rozdiel oproti HTTP/1.1</h1>
+		<p>HTTP/2 nie je úplne novou implementáciou protokolu. Je len vylepšením a rozšírením, aby jeho sémantika, metódy a statusové kódy zostali zachované. Existujú však zásadné veci, v ktorıch sa odlišuje:</p>
+		
+		<p>- je binárny, nie textovı, èo by malo zníi chybovos pri analıze správ (parsovaní)<br/>
+			- pouíva kompresiu hlavièiek pre zníenie objemu dát a latencie, rádovo v milisekundách. SPDY pôvodne pouíval GZIP pre ich kompresiu, nakoniec kvôli bezpeènosti padla vo¾ba na vlastnú implementáciu v podobe HPACK<br/>
+			- multiplexing, èie súèasné vybavovanie viacerıch poiadaviek, dokonca v rôznom poradí, minimalizácia vıpadkov alebo prerušení komunikácie<br/>
+			- server push umoòuje posiela viacero poiadaviek súèasne, napríklad CSS by malo prís rovno s HTML a nie a v ïalšej poiadavke
+		</p>
+		
+		<h1>Èo môete oèakáva od HTTP/2</h1>
+		<p>Prechod na protokol HTTP/2 bude pre vás takmer nepostrehnute¾nı. Prehliadaè, ktorı ho podporuje máte u pravdepodobne nainštalovanı, no jedna drobnos sa predsa len zmení – webové stránky by sa vám mali naèíta rıchlejšie a s menším objemom prenesenıch dát.</p>
+		<p>Situácia sa však mení pre vıvojárov, ktorí komunikujú cez novı protokol. Tım môe pomoc preh¾ad jeho implementácie pre rôzne jazyky a nástrojov pre jeho testovanie, ladenie a pouívanie.</p>
+		<p>Zmeny najviac postihnú hlavne hostingové spoloènosti a prevádzkovate¾ov vlastnıch webovıch serverov. Tam treba updatova, prípadne si poèka na stabilnú implementáciu.</p>
+		<p>My sme protokol SPDY podporovali vyše roka. V tıchto dòoch sme prešli na loadbalanceroch na HTTP/2. Ak pristúpite k vašim stránkam cez https://, pravdepodobne pôjdete u cez protokol HTTP/2.</p>
+		
+		<h1>Bude HTTP/3?</h1>
+		<p>Je jasné, e HTTP/2 asi nevyrieši všetky problémy. Na základe toho, ako sa budú vyvíja ïalšie technológie, budú sa postupne objavova nové a nové poiadavky. Kedy teda oèakáva ïalší upgrade? To je ako predvídate¾né a ve¾mi bude zálea od toho, ako rıchlo sa HTTP/2 udomácni a ako bude prebieha väèšina komunikácie cez tento novı protokol.</p>
+	
+	</body>
+</html>
